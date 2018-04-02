@@ -47,8 +47,11 @@ Em resumo:
 
 3 - desenvolve
 
+4 - 
+git add arquivo.txt (nos arquivos modificados)
+
 4 - commit 
 > git commit -m "Versão 02"
 
 5 - faz merge da "master" pra tua branch atual
-> git config --global merge.tool vimdiff
+> git mrge bug-123
