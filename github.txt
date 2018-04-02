@@ -1,0 +1,16 @@
+Criando chave de segurança, abrir GitBash
+> ssh-keygen -t rsa -C "master_bmendes@banparanet.com.br"
+
+Transformar pasta em um repositório Git:
+> cd /pasta
+> git init
+
+Enviando alterações para o Github
+1. Quais alterações foi feita
+> git status
+
+2. Untrack não é monitorado pelo Git
+> git add arquivo.txt
+
+3. Commit
+git commit -m "aqui coloco uma mensagem, tipo: comitando primeiro post"  
