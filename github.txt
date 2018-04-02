@@ -43,3 +43,4 @@ git add arquivo.txt
 git commit -am "BP V1"
 git push -u origin bp-v1
 git checkout master
+git merge bp-v1
