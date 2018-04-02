@@ -37,21 +37,7 @@ g) Quem alterou o arquivo
 
 
 
-
-Em resumo:
-1 - clona o projeto 
-> git clone https://github.com/bmendes95/testes.git
-
-2 - cria uma branch
-> git branch bug-123
-
-3 - desenvolve
-
-4 - 
-git add arquivo.txt (nos arquivos modificados)
-
-4 - commit 
-> git commit -m "Versão 02"
-
-5 - faz merge da "master" pra tua branch atual
-> git mrge bug-123
+git branch bp-v1
+git checkout bp-v1
+git add arquivo.txt
+git push -u origin bp-v1
