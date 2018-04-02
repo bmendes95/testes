@@ -33,3 +33,22 @@ g) Envia pro repositório remoto
 
 g) Quem alterou o arquivo
 > git blame index.html
+
+
+
+
+
+Em resumo:
+1 - clona o projeto 
+> git clone https://github.com/bmendes95/testes.git
+
+2 - cria uma branch
+> git branch bug-123
+
+3 - desenvolve
+
+4 - commit 
+> git commit -m "Versão 02"
+
+5 - faz merge da "master" pra tua branch atual
+> git config --global merge.tool vimdiff
