@@ -35,6 +35,21 @@ g) Quem alterou o arquivo
 > git blame index.html
 
 
+== RESUMO PROCESSO ==
+1 - clona o projeto
+
+2 - cria uma branch 
+
+3 - desenvolve
+
+4 - status e add
+5 - commit 
+
+6 - faz merge da "master" pra tua branch atual
+
+== SE TIVER QUE ATUALIZAR REPOSITÓRIO ==
+git pull
+
 == PASSOS PARA ATUALIZAR O REPOSITÓRIO REMOTO ==
 git branch bp-v1
 git checkout bp-v1
@@ -46,7 +61,11 @@ git push -u origin bp-v1
 git checkout master
 git merge bp-v1
 git status
-git add arquivo.txt
-git commit -am "BP V1.2"
-git status
+- git add arquivo.txt               | SEM
+- git commit -am "BP V1.2"          | ERRO DE
+- git status                        | MERGE
 git push
+
+== RESPOSITÓRIO REMOTO ==
+https://gitlab.com/master_dsoares/bpmonitor
+git@gitlab.com:master_dsoares/bpmonitor.git
